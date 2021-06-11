@@ -1,7 +1,7 @@
 # Object Tracking
 This repository implements YOLOv3 and Deep SORT in order to perfrom real-time object tracking. Yolov3 is an algorithm that uses deep convolutional neural networks to perform object detection. We can feed these object detections into Deep SORT (Simple Online and Realtime Tracking with a Deep Association Metric) in order for a real-time object tracker to be created.
 
-![Demo of Object Tracker](data/video/results1.avi)
+![Demo of Object Tracker](data/helpers/demo.gif)
 
 ## Getting started
 
@@ -88,10 +88,6 @@ The output flag saves your object tracker results as an avi file for you to watc
 There is a test video uploaded in the data/video folder called test.mp4. If you followed all the steps properly with the pretrained coco yolov3.weights model then when your run the object tracker wiht the first command above you should see the following.
 #### Video Example
 ![Demo of Object Tracker](data/helpers/demo.gif)
-
-#### Webcam Example
-This is a demo of running the object tracker using the above command for running the object tracker on your webcam.
-![Webcam Demo](data/helpers/webcam_demo.gif)
 
 ## Command Line Args Reference
 ```
